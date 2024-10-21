@@ -1,1 +1,118 @@
+/* shree.css */
+
+body {
+    background-image:url('https://cdn.wallpapersafari.com/7/52/mLoQ1J.jpg');
+    font-family: Arial, sans-serif;
+    margin: 1;
+    padding: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .app {
+    background-color: #d3cba7cc;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 10px 4px 10px rgba(243, 8, 8, 0.1);
+    max-width: 400px;
+    width: 200%;
+  }
+  h1 {
+    text-align: center;
+    color: #140808;
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #25c7f0;
+    border-radius: 4px;
+  }
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #d11aa9;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: rgb(23, 24, 8);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  ul.todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  li.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  .todo-item.even-item {
+    background-color: #f3f1eb;
+  }
+  .todo-item.odd-item {
+    background-color: #f8f8f5;
+  }
+  .todo-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .todo-task {
+    font-weight: bold;
+    color: #333;
+  }
+  .todo-date {
+    font-size: 12px;
+    color: #888;
+  }
+  .todo-actions {
+    display: flex;
+    gap: 10px;
+  }
+  .todo-actions button {
+    background-color: #b1077e;
+    padding: 7px 20px;
+  }
+  .todo-actions button:nth-child(2) {
+    background-color: #f44336;
+
+  .edit-container {
+    display: flex;
+    gap: 10px;
+  }
+  .edit-container input {
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #160808;
+  }
+}
+  
+
+
+
+
+
+
+
+
+
 
